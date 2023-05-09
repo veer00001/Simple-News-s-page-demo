@@ -1,0 +1,129 @@
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  padding: 10px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* about logo */
+
+.logo-section {
+  height: 100%;
+  text-align: center;
+  display: grid;
+  align-content: center;
+}
+
+
+.logo-text {
+  font-size: larger;
+  color: #010853;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo-img {
+  width: 70px;
+  height: 100%;
+  border-radius: 50px;
+
+}
+
+
+
+/* logo end */
+
+
+
+
+/* main heading */
+.main-heading {
+  margin: 5px 0;
+  display: grid;
+  justify-content: center;
+  color: white;
+  background-color: #282858;
+  font-size: 10px;
+
+}
+
+
+
+/* swipper */
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  display: none;
+}
+
+h4 {
+  font: 700 22px/33px 'Noto Sans', sans-serif;
+}
+
+
+
+.और  {
+ 
+ 
+  text-align: center;
+ 
+ 
+}
+
+.और  a{
+  font-weight: 900;
+  color: red;
+  display: inline-block;
+  border-bottom: 2px solid red;
+}
+
+.और  a:hover{
+  color: red;
+  font-weight: 500;
+  border-bottom: 2px solid white;
+
+}
+
+.मनोरंजन  .और  a{
+  color: white;
+ 
+  font-weight: 400;
+}
+.मनोरंजन  .और  a:hover{
+  color: black;
+  font-weight: 400;
+}
